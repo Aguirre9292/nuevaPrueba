@@ -1,0 +1,146 @@
+
+.contenido1{
+    background-color: rgb(126, 128, 0);
+    margin: auto;
+    overflow: hidden;
+	margin-bottom: 20px;
+	margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.contenedor2{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background:rgb(234, 255, 221);
+    color:black;
+    border-bottom: rgb(126, 128, 0) 15px solid;
+    margin-top: 12px;
+}
+
+
+/* menus*/
+#menu {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: monospace;
+    font: 14px Arial, Helvetica, sans-serif;
+    }
+
+    #menu ul  {
+        list-style: none;
+        margin: 0;
+        }
+        #menu ul li {
+            margin: 0;
+            float: left;
+            }
+            #menu ul li a {
+                margin:0 2px;
+                width: 220px;
+                font-weight:bold;
+                font-size:1.5em;
+                text-align: center;
+                line-height: 20px;
+                display:block;
+                text-decoration: none
+                }
+                #menu ul li a:hover {
+                    color:#000;
+                    }
+                   
+                  #item-uno a {
+                    border-bottom:5px solid #f00;
+                    color: #f00
+                    }
+                   
+                  #item-dos a {
+                    border-bottom:5px solid #f80;
+                    color: #f80;
+                    }
+                   
+                  #item-tres a {
+                    border-bottom:5px solid #08f;
+                    color: #08f;
+                    }
+                   
+                  #item-cuatro a {
+                    border-bottom:5px solid #8f0;
+                    color: #8f0;
+                    }
+                   
+                   
+                  #item-uno a:hover {
+                    background:#f00;
+                    }
+                   
+                  #item-dos a:hover {
+                    background:#f80;
+                    }
+                   
+                  #item-tres a:hover {
+                    background:rgb(61, 167, 238);
+                    }
+                   
+                  #item-cuatro a:hover {
+                    background:#8f0;
+                    }
+                   
+
+
+
+header #marca img{
+    width:360px;
+    float: left;
+}
+header #marca h1{
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+header #marca h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+.contenido2{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/cuidado.jpg') ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenido2 .welcome{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.contenido2 .resaltado, body .a{
+    color: rgb(230, 167, 32);
+    font-weight: bolder;
+
+}
+
+
+/*Slider */
